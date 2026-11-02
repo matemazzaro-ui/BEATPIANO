@@ -1,0 +1,6 @@
+{
+  "name": "Beat Piano 3D - Synthwave Rhythm & Gyroscope",
+  "description": "Juego de ritmo musical 3D estilo Synthwave con pista infinita de cubos de notas, giroscopio móvil, respuesta háptica, audio reactivo y código QR dinámico.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

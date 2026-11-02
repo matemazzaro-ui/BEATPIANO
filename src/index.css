@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-cyber {
+    font-family: 'Orbitron', -apple-system, sans-serif;
+  }
+  .font-body {
+    font-family: 'Rajdhani', -apple-system, sans-serif;
+  }
+  .neon-glow-pink {
+    box-shadow: 0 0 15px rgba(255, 0, 127, 0.5), 0 0 30px rgba(255, 0, 127, 0.25);
+  }
+  .neon-glow-cyan {
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.5), 0 0 30px rgba(0, 240, 255, 0.25);
+  }
+  .neon-text-pink {
+    text-shadow: 0 0 10px rgba(255, 0, 127, 0.8), 0 0 20px rgba(255, 0, 127, 0.4);
+  }
+  .neon-text-cyan {
+    text-shadow: 0 0 10px rgba(0, 240, 255, 0.8), 0 0 20px rgba(0, 240, 255, 0.4);
+  }
+  .neon-text-yellow {
+    text-shadow: 0 0 10px rgba(255, 230, 0, 0.8), 0 0 20px rgba(255, 230, 0, 0.4);
+  }
+}
+
+/* Prevent text selection and pinch gestures on mobile game canvas */
+canvas {
+  touch-action: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
